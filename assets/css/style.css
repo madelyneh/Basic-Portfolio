@@ -1,0 +1,51 @@
+body {
+    width: 960px;
+    margin: auto;
+    color: #777777;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+#name {
+    float: left;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+hr {
+    width: 900px;
+}
+
+.box {
+    float: left;
+    border:2px solid #111;
+    margin: 10px 10px 10px 10px;
+}
+
+.boxContainer {
+    width: 80%;
+    margin: auto;
+}
