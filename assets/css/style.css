@@ -1,7 +1,16 @@
+html {
+    height: 100%;
+    background-image: url("/assets/images/what-the-hex/what-the-hex.png");
+}
+
 body {
     width: 960px;
+    height: auto;
     margin: auto;
     color: #777777;
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 ul {
@@ -9,30 +18,42 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #ffffff;
+    border-color: #cccccc;
 }
 
 li {
     float: right;
+   
 }
 
 li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 30px 20px;
     text-decoration: none;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-    background-color: #111;
+    background-color: gray;
 }
 
 #name {
     float: left;
     color: white;
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+    width: 160px;
     background-color: #4aaaa5;
+    font-size: 30px;
+}
+
+.button {
+    color: black;
 }
 
 hr {
@@ -43,9 +64,28 @@ hr {
     float: left;
     border:2px solid #111;
     margin: 10px 10px 10px 10px;
+    height: 200px;
+    width: 200px;
 }
 
 .boxContainer {
     width: 80%;
     margin: auto;
+}
+
+.container {
+    background-color: #ffffff;
+    border-color: #dddddd;
+    height:auto;
+}
+
+.footer {
+    border-top: 8px solid #4aaaa5;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#666666;
+    color: white;
+    text-align: center;
 }
