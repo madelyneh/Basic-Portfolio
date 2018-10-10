@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     height: 100%;
     width: 100%;
@@ -10,21 +14,11 @@ body {
     margin: auto; 
     color: #777777; 
     background-color: #ffffff; 
+    font-size: 18px;
+    line-height: 34px;
     font-family: Arial, Helvetica, sans-serif;
     position: relative; 
 }
-/*
-#wrapper {
-    width: 960px;
-    position: center;
-    height: auto;
-    margin: auto;
-    color: #777777;
-    background-color: #ffffff;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-*/
 
 ul {
     list-style-type: none;
@@ -66,10 +60,7 @@ li a:hover {
 }
 
 
-.space {
-    height: 50px;
-    background-image: url("/assets/images/what-the-hex.png");
-}
+
 
 hr {
     width: 900px;
